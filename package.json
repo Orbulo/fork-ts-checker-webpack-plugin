@@ -38,8 +38,7 @@
     "test:e2e": "npm pack && cross-env jest --config=test/e2e/jest.config.js --ci -i -b",
     "precommit": "cross-env lint-staged && yarn build && yarn test:unit",
     "commit": "cross-env git-cz",
-    "semantic-release": "semantic-release",
-    "install": "npm run build"
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
